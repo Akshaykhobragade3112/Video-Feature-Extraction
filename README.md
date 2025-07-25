@@ -61,3 +61,12 @@ SampleVideo2.mp4
 ```bash
 python VideoFeatureExtraction.py
 ```
+
+## How it works
+Frame Sampling: Every 5th frame is extracted for faster processing
+
+Hard Cuts: Detected using grayscale histogram difference
+
+Motion: Optical Flow is calculated between consecutive frames
+
+Object Detection: YOLOv8 detects objects and persons in sampled frames
