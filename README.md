@@ -21,3 +21,29 @@ The tool processes videos and computes the following three features:
 ### 3️⃣ Object vs. Person Ratio
 - Uses a pre-trained **YOLOv8** model to detect and classify people vs other objects.
 - Calculates the **ratio of people to objects** across sampled frames:
+
+
+
+---
+
+## 📁 Project Structure
+
+Video Feature Extraction/
+├── Videos/ # 📂 Input videos (.mp4)
+├── VideoFeatureExtraction.py # 🧠 Main script
+├── requirements.txt # 📦 Python dependencies
+└── README.md # 📘 Project documentation
+---
+
+## 📥 Setup Instructions
+
+### 1. Install Python
+Make sure you have Python 3.8+ installed.  
+Check with:
+```bash
+python --version
+
+
+## Install Dependencies
+Run this command inside the project folder:
+   pip install -r requirements.txt
