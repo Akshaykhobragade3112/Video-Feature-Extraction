@@ -49,3 +49,15 @@ Run this command inside the project folder:
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. Add Videos
+Place your .mp4 files inside the Videos/ folder. Example names:
+
+SampleVideo1.mp4
+
+SampleVideo2.mp4
+
+### 4. Run the Script
+```bash
+python VideoFeatureExtraction.py
+```
