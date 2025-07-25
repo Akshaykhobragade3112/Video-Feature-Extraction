@@ -27,12 +27,13 @@ The tool processes videos and computes the following three features:
 ---
 
 ##  Project Structure
-
+```bash
 Video Feature Extraction/  
 ├── Videos/ #  Input videos (.mp4)  
 ├── VideoFeatureExtraction.py #  Main script    
 ├── requirements.txt #  Python dependencies    
 └── README.md #  Project documentation
+```
 ---
 
 ##  Setup Instructions
@@ -52,11 +53,11 @@ pip install -r requirements.txt
 
 ### 3. Add Videos
 Place your .mp4 files inside the Videos/ folder. Example names:
-
+```bash
 SampleVideo1.mp4
 
 SampleVideo2.mp4
-
+```
 ### 4. Run the Script
 ```bash
 python VideoFeatureExtraction.py
