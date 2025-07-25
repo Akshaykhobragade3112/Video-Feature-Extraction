@@ -70,3 +70,20 @@ Hard Cuts: Detected using grayscale histogram difference
 Motion: Optical Flow is calculated between consecutive frames
 
 Object Detection: YOLOv8 detects objects and persons in sampled frames
+
+## requirements.txt
+```bash
+opencv-python
+numpy
+ultralytics
+torch
+```
+
+## Sample Output
+```bash
+{
+  "hard_cuts": 3,
+  "average_motion": 0.42,
+  "person_object_ratio": 1.75
+}
+```
