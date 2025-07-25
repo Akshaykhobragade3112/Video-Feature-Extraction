@@ -29,9 +29,9 @@ The tool processes videos and computes the following three features:
 ##  Project Structure
 
 Video Feature Extraction/
-├── Videos/ #  Input videos (.mp4)
-├── VideoFeatureExtraction.py #  Main script
-├── requirements.txt #  Python dependencies
+├── Videos/ #  Input videos (.mp4)/
+├── VideoFeatureExtraction.py #  Main script/
+├── requirements.txt #  Python dependencies/
 └── README.md #  Project documentation
 ---
 
