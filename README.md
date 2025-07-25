@@ -37,16 +37,15 @@ Video Feature Extraction/
 
 ##  Setup Instructions
 
-### Install Python
+### 1. Install Python
 Make sure you have Python 3.8+ installed.  
 Check with:
 ```bash
 python --version
+```
 
-##  Install Dependencies
+### 2. Install Dependencies
 Run this command inside the project folder:
+```bash
 pip install -r requirements.txt
-
-## Run Script
-python VideoFeatureExtraction.py
-
+```
